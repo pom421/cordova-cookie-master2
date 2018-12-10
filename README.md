@@ -72,7 +72,7 @@ This plugin is distributed under the MIT License.
 
 ## Thanks to
 
-This plugin is a fork from Edward Gao's "cookie master" plugin. See edwardgaoyb/cordova-cookie-master.
+This plugin is a fork from Edward Gao's "cookie master" plugin. See [edwardgaoyb/cordova-cookie-master](https://github.com/edwardgaoyb/cordova-cookie-master).
 The plugin was not well packaged, Cordova wise on the NPM registry. 
 
 This plugin is a fork from Kristian Hristov's "cookie master" plugin. The author is not maintaining the plugin, so I created a new branch to include fixes and support to new OS versions.
