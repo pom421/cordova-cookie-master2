@@ -1,0 +1,39 @@
+{
+  "name": "cordova-plugin-cookiemaster2",
+  "version": "1.0.6",
+  "description": "This plugin enables the management of cookies in WebViews on iOS and Android as those platforms restrict the use of \"document.cookie\".",
+  "cordova": {
+    "id": "cordova-plugin-cookiemaster2",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pom421/cordova-cookie-master2.git"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "cookie",
+    "cookies",
+    "cookie-manager",
+    "cookie-plugin",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "pom421",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pom421/cordova-cookie-master2/issues"
+  },
+  "homepage": "https://github.com/pom421/cordova-cookie-master2#readme"
+}

@@ -1,6 +1,10 @@
 Change Log
 =============
 
+V1.0.6
+- plugin.xml well formatted for Cordova project
+- support for Cordova Android > 7.0.0
+
 V1.0.2
 Remove the import directive to fix the outdated dependency and compilation error caused by Apache cookie class.
 
@@ -61,6 +65,11 @@ cookieMaster.clearCookies(
 This plugin is distributed under the MIT License.
 
 ## Thanks to
+
+This plugin is a fork from Edward Gao's "cookie master" plugin. See edwardgaoyb/cordova-cookie-master.
+
+The plugin was not well packaged, Cordova wise. And I add the pull request from TheTostu to be compatible with Cordova Android > 7.0.0.
+
 This plugin is a fork from Kristian Hristov's "cookie master" plugin. The author is not maintaining the plugin, so I created a new branch to include fixes and support to new OS versions.
 
 This plugin was inspired by the great work on the CookieMonster plugin by @barrettc
