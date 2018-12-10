@@ -1,19 +1,10 @@
-Change Log
-=============
-
-V1.0.6
-- plugin.xml well formatted for Cordova project
-- support for Cordova Android > 7.0.0
-
-V1.0.2
-Remove the import directive to fix the outdated dependency and compilation error caused by Apache cookie class.
-
 Cookie Master
 ==============
 
 As you may already know, WebViews on Android and iOS platforms do not support regular use of <code>document.cookie</code> for managing the cookies in your app. This plugin allows you to get and set cookie values from your WebView through a simple interface.
 
 ## Supported Platforms
+
 * Android
 * iOS
 
@@ -24,6 +15,7 @@ Install with Cordova CLI
     $ cordova plugin add cordova-plugin-cookiemaster
 
 ## Usage
+
 ### Get cookie value
 ```javascript
 cookieMaster.getCookieValue('http://<some host>:<some port>', '<cookie name>', function(data) {
@@ -34,7 +26,9 @@ cookieMaster.getCookieValue('http://<some host>:<some port>', '<cookie name>', f
   }
 });
 ```
+
 ### Set cookie value
+
 ```javascript
 cookieMaster.setCookieValue('http://<some host>:<some port>', '<cookie name>', '<cookie value>',
     function() {
@@ -44,9 +38,11 @@ cookieMaster.setCookieValue('http://<some host>:<some port>', '<cookie name>', '
         console.log('Error setting cookie: '+error);
     });
 ```
+
 The cookie value should be formatted just like a regular <code>document.cookie</code> value.
 
 ### Clear all cookies
+
 ```javascript
 cookieMaster.clearCookies(
     function() {
@@ -58,7 +54,17 @@ cookieMaster.clearCookies(
 ```
 
 ## Limitations
+
 * This version has been tested on Android 4.4 ~ 5.1 devices, iOS 7.1 ~ 9 devices. Experience may vary for different OS versions.
+
+## Change Log
+
+V1.0.6
+- plugin.xml well formatted for Cordova project
+- support for Cordova Android > 7.0.0
+
+V1.0.5
+- see [Cookie Master from Edward Gao Github](https://github.com/edwardgaoyb/cordova-cookie-master)
 
 
 ## License
@@ -67,8 +73,7 @@ This plugin is distributed under the MIT License.
 ## Thanks to
 
 This plugin is a fork from Edward Gao's "cookie master" plugin. See edwardgaoyb/cordova-cookie-master.
-
-The plugin was not well packaged, Cordova wise. And I add the pull request from TheTostu to be compatible with Cordova Android > 7.0.0.
+The plugin was not well packaged, Cordova wise on the NPM registry. 
 
 This plugin is a fork from Kristian Hristov's "cookie master" plugin. The author is not maintaining the plugin, so I created a new branch to include fixes and support to new OS versions.
 
