@@ -12,7 +12,7 @@ As you may already know, WebViews on Android and iOS platforms do not support re
 
 Install with Cordova CLI
 
-    $ cordova plugin add cordova-plugin-cookiemaster
+    $ cordova plugin add cordova-plugin-cookiemaster2
 
 ## Usage
 
@@ -58,6 +58,10 @@ cookieMaster.clearCookies(
 * This version has been tested on Android 4.4 ~ 5.1 devices, iOS 7.1 ~ 9 devices. Experience may vary for different OS versions.
 
 ## Change Log
+
+V1.0.7
+
+- installing command was not right. Fixed
 
 V1.0.6
 - plugin.xml well formatted for Cordova project

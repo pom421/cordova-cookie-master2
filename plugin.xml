@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
  
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-cookiemaster2" version="1.0.6">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="cordova-plugin-cookiemaster2" version="1.0.7">
     <name>CookieMaster 2</name>
     <description>This plugin enables the management of cookies in WebViews on iOS and Android as those platforms restrict the use of "document.cookie".</description>
     <license>MIT</license>
